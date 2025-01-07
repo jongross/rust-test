@@ -1,0 +1,11 @@
+{
+    "name": "Rust Development Container",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh"
+    },
+    "extensions": [
+        "rust-lang.rust",
+        "matklad.rust-analyzer"
+    ],
+    "postCreateCommand": "cargo install"
+}
